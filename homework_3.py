@@ -1,8 +1,8 @@
-""" gfgwgsgf """
+""" homework """
 
 
 def largest_number(arg_a, arg_b):
-    """ gfgwgsgf """
+    """ largest_number """
     print("largest_number")
 
     if arg_a >= arg_b:
@@ -11,8 +11,8 @@ def largest_number(arg_a, arg_b):
     return arg_b
 
 
-def lesser_number(arg_a, arg_b,arg_c):
-    """ gfgwgsgf """
+def lesser_number(arg_a, arg_b, arg_c):
+    """ lesser_number """
     print('lesser_number')
 
     if arg_b >= arg_a <= arg_c:
@@ -23,7 +23,7 @@ def lesser_number(arg_a, arg_b,arg_c):
 
 
 def positive_number(arg_a):
-    """ gfgwgsgf """
+    """ positive_number """
     print("positive_number")
 
     if arg_a < 0:
@@ -32,12 +32,12 @@ def positive_number(arg_a):
 
 
 def sum_number(arg_a, arg_b):
-    """ fiuwehiqewg """
+    """ sum_number """
     print(arg_a + arg_b)
 
 
 def number(arg_a):
-    """ gfgwgsgf """
+    """ number """
     print("number")
 
     if arg_a > 0:
