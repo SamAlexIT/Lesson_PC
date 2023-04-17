@@ -1,53 +1,80 @@
-a = 8
-b = 5
-c = 7
-d = 3
+def largest_number(arg_a, arg_b):
 
-print()
-print(a == 8)
-print(b == 5)
-print(c == 7)
-print(d == 3)
+    a = int(input("Enter number: "))
+    b = int(input("Enter number: "))
 
-print()
-print(a > b)
-print(a > c)
-print(a > d)
+    print("largest_number")
 
-print()
-print(b < a)
-print(b < c)
-print(b > d)
-
-print()
-print(c < a)
-print(c > b)
-print(c > d)
-
-print()
-print(d < a)
-print(d < b)
-print(d < c)
-
-print()
-res = a > b and a > c
-res = a > b and c
-print(a > b or c)
-
-print()
-res = a > b and a > c and a > d
-res = b < a and b < c and b > d
-res = d < a and d < b and d < c
-res = d < a or b or c
-print(d < a or b or c)
-print()
-
-print()
-a = abs(-8)
-print(a)
-d = abs(8-5)
-print(d)
+    if a >= b:
+        print(a)
+    elif a <= b:
+        print(b)
+    else:
+        print('largest_number')
 
 
 
+def lesser_number(arg_a, arg_b, arg_c):
 
+    a = int(input("Enter number: "))
+    b = int(input("Enter number: "))
+    c = int(input("Enter number: "))
+
+    print('lesser_number')
+
+    if b >= a <= c:
+        print(a)
+    if a >= b <= c:
+        print(b)
+    if a >= c <= b:
+        print(c)
+    else:
+        print("lesser_number")
+
+
+
+def positive_number():
+
+    a = int(input("Enter number: "))
+    b = int(input("Enter number: "))
+
+    print("positive_number")
+
+    if a == (-a):
+        print(abs(a))
+    if b == (-b):
+        print(abs(b))
+    else:
+        print("positive_number")
+
+
+
+def sum_number():
+
+    a = [5, 6, 2, 4]
+    b = [3, 8, 1, 9]
+    sum([a, b])
+
+    print("sum_number")
+
+    if a == [5, 6, 2, 4]:
+         print(a)
+    elif b == [3, 8, 1, 9]:
+        print(b)
+    else:
+        print(sum([a, b]))
+
+
+
+def number():
+
+    a = int(input("Enter number: "))
+
+    print("number")
+
+    if a >= 0:
+        print("positive")
+    elif a <= -1:
+        print("negative")
+    else:
+        print("number")
