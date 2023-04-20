@@ -29,3 +29,14 @@ def product_info(arg_a):
 
 # inner_function = product_info(15)
 # print(inner_function(5))
+def size_m(arg_a):
+    """size_m"""
+    arg_m = arg_a
+    for i in range(0, arg_a):
+        for i in range(0, arg_m):
+            print(end="")
+        arg_m = arg_a
+        for i in range(0, arg_a):
+
+            print("*", end='')
+        print("")
